@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#myLabel{
+    font-size: 3em;
+    display: block;
+    text-align: center;
+    width: 60px;
+}
+
+#btnContainer{
+    display: block;
+    text-align: center;
+}
+
+#myBtn{
+    font-size: 2em;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: hsl(41, 100%, 50%);
+    color: white;
+    transition: 0.25s;
+}
+
+#myBtn:hover{
+    background-color: rgb(177, 56, 0);
+}
